@@ -1,0 +1,17 @@
+{
+  "automationCandidates": [],
+  "generatedBy": "ZKME",
+  "manualTestCases": [],
+  "notes": [
+    "Generated files live under zkme-generated folders so human-authored QA assets are not overwritten.",
+    "Generated portable testcases preserve ZeuZ mappings and can be made runnable by configuring project-specific environment, auth, fixtures, and selectors.",
+    "Lead-QA generated cases under qa/manual/test-cases/lead-qa-generated/ are deterministic deep test-design drafts for AI or human enrichment."
+  ],
+  "phase": "phase-1-generated-test-automation",
+  "project": {
+    "name": "OC"
+  },
+  "schemaVersion": "zkme.qa-test-inventory.v1",
+  "testCases": [],
+  "zeuzExportCandidates": []
+}

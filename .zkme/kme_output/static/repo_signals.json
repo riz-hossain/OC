@@ -1,0 +1,37 @@
+{
+  "adapters_used": [],
+  "notes": [],
+  "repo_profile": {
+    "build_systems": [],
+    "confidence": "low",
+    "languages": {
+      "html": 1,
+      "markdown": 1
+    },
+    "notes": [
+      "No clear build roots detected; repo structure may be non-standard."
+    ],
+    "recommended_ignores": [
+      ".git/",
+      ".hg/",
+      ".idea/",
+      ".mypy_cache/",
+      ".pytest_cache/",
+      ".ruff_cache/",
+      ".svn/",
+      ".venv/",
+      ".vscode/",
+      "bin/",
+      "build/",
+      "dist/",
+      "node_modules/",
+      "obj/",
+      "out/",
+      "target/",
+      "venv/"
+    ],
+    "repo_kind": "unknown",
+    "service_roots": []
+  },
+  "scan_duration_seconds": 0.21090829995227978
+}

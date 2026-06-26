@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "file:orange_circle_platformer.html",
+      "kind": "file",
+      "label": "orange_circle_platformer.html",
+      "metadata": {
+        "language": "html",
+        "size": 48309
+      }
+    },
+    {
+      "id": "file:README.md",
+      "kind": "file",
+      "label": "README.md",
+      "metadata": {
+        "language": "markdown",
+        "size": 21
+      }
+    }
+  ],
+  "edges": [],
+  "summary": {
+    "total_nodes": 2,
+    "total_edges": 0,
+    "node_kinds": {
+      "file": 2
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "id": "version_consistency",
+      "message": "VERSION, README, CLAUDE, changelog/package metadata, and generated manifest agree where present.",
+      "status": "pass"
+    },
+    {
+      "id": "no_overwrite_human_agents",
+      "message": "No existing AGENTS.md was present; generated root install is safe.",
+      "status": "pass"
+    },
+    {
+      "id": "required_sections_present",
+      "message": "All required governance domains were generated.",
+      "status": "pass"
+    },
+    {
+      "id": "artifact_citations_present",
+      "message": "Generated claims cite source artifacts in the manifest.",
+      "status": "pass"
+    },
+    {
+      "id": "no_invented_commands",
+      "message": "Generated docs only list detected commands or UNKNOWN guidance.",
+      "status": "pass"
+    },
+    {
+      "id": "qa_structure_generated_or_mapped",
+      "message": "QA structure exists and is documented.",
+      "status": "pass"
+    },
+    {
+      "id": "zkme_report_rule_present",
+      "message": "ZKME reporting rule is present.",
+      "status": "pass"
+    },
+    {
+      "id": "quarter_checkpoint_rule_present",
+      "message": "Large-task 25 percent checkpoint rule is present.",
+      "status": "pass"
+    },
+    {
+      "id": "ui_ux_standards_present",
+      "message": "No UI surfaces detected.",
+      "status": "not_applicable"
+    },
+    {
+      "id": "ui_design_consistency_rules_present",
+      "message": "No UI surfaces detected.",
+      "status": "not_applicable"
+    },
+    {
+      "id": "mobile_standards_present",
+      "message": "No mobile surfaces detected.",
+      "status": "not_applicable"
+    },
+    {
+      "id": "db_standards_present",
+      "message": "No database schema or migration surfaces detected.",
+      "status": "not_applicable"
+    },
+    {
+      "id": "security_standards_present",
+      "message": "Security guidance is present.",
+      "status": "pass"
+    },
+    {
+      "id": "performance_standards_present",
+      "message": "Performance guidance is present.",
+      "status": "pass"
+    },
+    {
+      "id": "i18n_readiness_present",
+      "message": "i18n guidance is present.",
+      "status": "pass"
+    }
+  ],
+  "ok": true,
+  "schemaVersion": "zkme.governance-validation.v1"
+}

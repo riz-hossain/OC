@@ -1,0 +1,8 @@
+{
+  "schemaVersion": "zkme.ui-exceptions.v1",
+  "allowedDuplicatePrimitives": [],
+  "notes": [
+    "Add an entry only when a duplicate primitive is intentional, reviewed, and temporary.",
+    "Example: {\"primitive\": \"button\", \"paths\": [\"src/legacy/Button.tsx\", \"src/components/Button.tsx\"], \"reason\": \"migration window\", \"expires\": \"2026-12-31\"}"
+  ]
+}

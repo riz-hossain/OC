@@ -1,0 +1,11 @@
+{
+  "fixture_directories": [],
+  "seed_files": [],
+  "factory_patterns": [],
+  "cleanup_patterns": [],
+  "test_db_env_keys": [],
+  "admin_endpoints": [],
+  "total_detections": 0,
+  "has_test_data_management": false,
+  "has_cleanup_strategy": false
+}

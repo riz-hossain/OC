@@ -1,0 +1,6 @@
+{
+  "version": "1.0",
+  "description": "All detected external data interactions (db, file, queue, cache, network)",
+  "total": 0,
+  "data_touches": []
+}

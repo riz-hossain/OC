@@ -1,0 +1,40 @@
+name: ZKME QA Gates
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  zkme-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Collect changed files
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git diff --name-only "origin/${{ github.base_ref }}...HEAD" > .zkme-changed-files.txt
+          else
+            git diff --name-only HEAD~1..HEAD > .zkme-changed-files.txt || true
+          fi
+      - name: Validate AI adapter bridges
+        run: python qa/automation/validate_ai_adapters.py
+      - name: Validate testcase packages
+        run: python qa/automation/validate_testcase_packages.py
+      - name: Validate lead-QA test design quality
+        run: python qa/automation/validate_test_design_quality.py
+      - name: Verify QA contract
+        run: python qa/automation/verify_zkme_qa_contract.py --changed-files-from .zkme-changed-files.txt
+      - name: Verify UI consistency
+        run: |
+          if [ -f qa/automation/ui/verify_ui_consistency.py ]; then
+            python qa/automation/ui/verify_ui_consistency.py --changed-files-from .zkme-changed-files.txt
+          fi

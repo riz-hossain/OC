@@ -1,0 +1,542 @@
+{
+  "anchors": [
+    {
+      "text": "ORANGE CIRCLE",
+      "anchor_type": "heading",
+      "file": "orange_circle_platformer.html",
+      "line": 206,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0001",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 206
+        }
+      ]
+    },
+    {
+      "text": "SELECT SECTOR",
+      "anchor_type": "heading",
+      "file": "orange_circle_platformer.html",
+      "line": 216,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0002",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 216
+        }
+      ]
+    },
+    {
+      "text": "MAP IMPORTER",
+      "anchor_type": "heading",
+      "file": "orange_circle_platformer.html",
+      "line": 227,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0003",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 227
+        }
+      ]
+    },
+    {
+      "text": "EXPORT LEVEL",
+      "anchor_type": "heading",
+      "file": "orange_circle_platformer.html",
+      "line": 237,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0004",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 237
+        }
+      ]
+    },
+    {
+      "text": "MISSION INTEL",
+      "anchor_type": "heading",
+      "file": "orange_circle_platformer.html",
+      "line": 245,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0005",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 245
+        }
+      ]
+    },
+    {
+      "text": "SECTOR CLEAR",
+      "anchor_type": "heading",
+      "file": "orange_circle_platformer.html",
+      "line": 265,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0006",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 265
+        }
+      ]
+    },
+    {
+      "text": "MENU",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 176,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0007",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 176
+        }
+      ]
+    },
+    {
+      "text": "Platform",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 188,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0008",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 188
+        }
+      ]
+    },
+    {
+      "text": "Lava",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 189,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0009",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 189
+        }
+      ]
+    },
+    {
+      "text": "Spike",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 190,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0010",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 190
+        }
+      ]
+    },
+    {
+      "text": "Speed Gate",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 191,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0011",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 191
+        }
+      ]
+    },
+    {
+      "text": "Finish",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 192,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0012",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 192
+        }
+      ]
+    },
+    {
+      "text": "Eraser",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 193,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0013",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 193
+        }
+      ]
+    },
+    {
+      "text": "TEST PLAY",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 196,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0014",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 196
+        }
+      ]
+    },
+    {
+      "text": "IMPORT",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 197,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0015",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 197
+        }
+      ]
+    },
+    {
+      "text": "EXPORT ARRAY",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 198,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0016",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 198
+        }
+      ]
+    },
+    {
+      "text": "EXIT",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 199,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0017",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 199
+        }
+      ]
+    },
+    {
+      "text": "NEW GAME",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 207,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0018",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 207
+        }
+      ]
+    },
+    {
+      "text": "LEVEL CREATOR",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 208,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0019",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 208
+        }
+      ]
+    },
+    {
+      "text": "LEVEL SELECT",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 209,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0020",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 209
+        }
+      ]
+    },
+    {
+      "text": "IMPORT ARRAY",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 210,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0021",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 210
+        }
+      ]
+    },
+    {
+      "text": "HOW TO PLAY",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 211,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0022",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 211
+        }
+      ]
+    },
+    {
+      "text": "BACK",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 222,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0023",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 222
+        }
+      ]
+    },
+    {
+      "text": "LOAD & PLAY",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 230,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0024",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 230
+        }
+      ]
+    },
+    {
+      "text": "LOAD IN EDITOR",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 231,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0025",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 231
+        }
+      ]
+    },
+    {
+      "text": "BACK",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 232,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0026",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 232
+        }
+      ]
+    },
+    {
+      "text": "CLOSE",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 240,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0027",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 240
+        }
+      ]
+    },
+    {
+      "text": "GOT IT",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 260,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0028",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 260
+        }
+      ]
+    },
+    {
+      "text": "CONTINUE",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 267,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0029",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 267
+        }
+      ]
+    },
+    {
+      "text": "BACK TO EDITOR",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 268,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0030",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 268
+        }
+      ]
+    },
+    {
+      "text": "EXIT TO MENU",
+      "anchor_type": "button_label",
+      "file": "orange_circle_platformer.html",
+      "line": 269,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0031",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 269
+        }
+      ]
+    },
+    {
+      "text": "[{\"x\":100, \"y\":1900, \"w\":500, \"h\":50, \"type\":\"platform\"}]",
+      "anchor_type": "placeholder",
+      "file": "orange_circle_platformer.html",
+      "line": 229,
+      "confidence": "MEDIUM",
+      "surface_id": "global",
+      "anchor_id": "ANC-0032",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 229
+        }
+      ]
+    },
+    {
+      "text": "Not an array",
+      "anchor_type": "error_throw",
+      "file": "orange_circle_platformer.html",
+      "line": 479,
+      "confidence": "HIGH",
+      "surface_id": "global",
+      "anchor_id": "ANC-0033",
+      "i18n_keyed": false,
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 479
+        }
+      ]
+    }
+  ],
+  "total": 33,
+  "by_type": {
+    "heading": 6,
+    "button_label": 25,
+    "placeholder": 1,
+    "error_throw": 1
+  },
+  "by_surface": {
+    "global": 33
+  }
+}

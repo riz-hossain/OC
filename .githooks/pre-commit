@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+
+CHANGED_FILE=".git/zkme-staged-files.txt"
+git diff --cached --name-only --diff-filter=ACMR > "$CHANGED_FILE"
+
+python qa/automation/validate_ai_adapters.py
+python qa/automation/validate_testcase_packages.py
+python qa/automation/validate_test_design_quality.py
+python qa/automation/verify_zkme_qa_contract.py --changed-files-from "$CHANGED_FILE"
+
+if [ -f "qa/automation/ui/verify_ui_consistency.py" ]; then
+  python qa/automation/ui/verify_ui_consistency.py --changed-files-from "$CHANGED_FILE"
+fi

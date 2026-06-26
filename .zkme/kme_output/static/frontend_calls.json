@@ -1,0 +1,5 @@
+{
+  "calls": [],
+  "note": "Best-effort fetch/axios/SWR/XHR detection; url_expr is raw source expression.",
+  "schema": "zkme.frontend_calls.v1"
+}

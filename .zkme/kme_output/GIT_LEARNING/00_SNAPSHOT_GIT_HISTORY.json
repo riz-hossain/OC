@@ -1,0 +1,70 @@
+{
+  "generated_by": "ZKME",
+  "artifact_set": "GIT_LEARNING",
+  "snapshot_version": "1.0",
+  "repo_profile": {
+    "repo_kind": "unknown",
+    "languages": {
+      "html": 1,
+      "markdown": 1
+    },
+    "build_systems": [],
+    "service_roots": [],
+    "recommended_ignores": [
+      ".git/",
+      ".hg/",
+      ".idea/",
+      ".mypy_cache/",
+      ".pytest_cache/",
+      ".ruff_cache/",
+      ".svn/",
+      ".venv/",
+      ".vscode/",
+      "bin/",
+      "build/",
+      "dist/",
+      "node_modules/",
+      "obj/",
+      "out/",
+      "target/",
+      "venv/"
+    ],
+    "notes": [
+      "No clear build roots detected; repo structure may be non-standard."
+    ],
+    "confidence": "low"
+  },
+  "git_history": {
+    "is_git_repo": true,
+    "total_commits": 2,
+    "active_days": 1,
+    "hot_files": [
+      [
+        "orange_circle_platformer.html",
+        1
+      ],
+      [
+        "README.md",
+        1
+      ]
+    ],
+    "coupled_files": [],
+    "recent_files": [
+      "orange_circle_platformer.html",
+      "README.md"
+    ],
+    "top_authors": [
+      [
+        "Riz Hossain",
+        2
+      ]
+    ],
+    "contributors_by_dir": {
+      "_all": [
+        "Riz Hossain"
+      ]
+    },
+    "default_branch": "main",
+    "current_branch": "main"
+  }
+}

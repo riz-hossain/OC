@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "description": "Master index of all ZeuZ global steps. Use this to find reusable steps by name, surface, or capability.",
+  "total_steps": 0,
+  "categories": {
+    "ui": 0,
+    "api": 0,
+    "mobile": 0,
+    "db": 0,
+    "common": 0
+  },
+  "steps": []
+}

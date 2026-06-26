@@ -1,0 +1,8 @@
+{
+  "schema": "zkme.route_contracts.v1",
+  "total_routes": 0,
+  "auth_detected": false,
+  "auth_config_keys": [],
+  "contracts": [],
+  "notes": "Cross-referenced from interfaces, guard_clauses, side_effects_map, schemas, and auth_contract. Fields are null when the link is ambiguous. body_schema_hint and response_schema_hint are name-matched only \u2014 verify against actual handler code before using."
+}

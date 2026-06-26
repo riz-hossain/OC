@@ -1,0 +1,43 @@
+{
+  "primary_platform": "web_generic",
+  "primary_priority": [
+    "data-automation",
+    "data-testid",
+    "data-test",
+    "aria-label",
+    "role",
+    "id",
+    "name",
+    "class",
+    "css",
+    "xpath",
+    "text"
+  ],
+  "all_policies": [
+    {
+      "platform_key": "web_generic",
+      "platform": "Web (Generic)",
+      "priority": [
+        "data-automation",
+        "data-testid",
+        "data-test",
+        "aria-label",
+        "role",
+        "id",
+        "name",
+        "class",
+        "css",
+        "xpath",
+        "text"
+      ],
+      "notes": "Generic web locator priorities."
+    }
+  ],
+  "total_platforms_detected": 1,
+  "evidence_refs": [
+    {
+      "file": "repo_signals.json",
+      "line": 0
+    }
+  ]
+}

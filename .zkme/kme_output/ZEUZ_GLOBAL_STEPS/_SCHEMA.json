@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ZeuZ Global Step",
+  "version": "1.0",
+  "type": "object",
+  "required": [
+    "step_id",
+    "name",
+    "description",
+    "expected",
+    "surfaces",
+    "capability_tags",
+    "platform",
+    "steps"
+  ],
+  "properties": {
+    "step_id": {
+      "type": "string",
+      "pattern": "^GS-[A-Z]+-\\d{3}$",
+      "description": "Unique step ID (format: GS-<CATEGORY>-NNN)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable step name"
+    },
+    "description": {
+      "type": "string",
+      "description": "What this step does"
+    },
+    "expected": {
+      "type": "string",
+      "description": "Expected outcome"
+    },
+    "surfaces": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ui",
+          "rest",
+          "graphql",
+          "db",
+          "mobile",
+          "desktop",
+          "websocket"
+        ]
+      }
+    },
+    "capability_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "platform": {
+      "type": "string",
+      "enum": [
+        "web",
+        "mobile",
+        "desktop",
+        "any"
+      ]
+    },
+    "pre_conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "step_name",
+          "description",
+          "expected",
+          "actions"
+        ],
+        "properties": {
+          "step_name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "expected": {
+            "type": "string"
+          },
+          "actions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "action_name",
+                "rows"
+              ],
+              "properties": {
+                "action_name": {
+                  "type": "string"
+                },
+                "rows": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "data",
+                      "sequence"
+                    ],
+                    "properties": {
+                      "data": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "minItems": 3,
+                        "maxItems": 3
+                      },
+                      "sequence": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "variables_used": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

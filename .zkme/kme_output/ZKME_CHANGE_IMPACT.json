@@ -1,0 +1,22 @@
+{
+  "impacts": [
+    {
+      "file": "orange_circle_platformer.html",
+      "files_within_2_hops": [
+        "orange_circle_platformer.html"
+      ],
+      "symbols_in_radius": []
+    },
+    {
+      "file": "README.md",
+      "files_within_2_hops": [
+        "README.md"
+      ],
+      "symbols_in_radius": []
+    }
+  ],
+  "note": "Blast radius computed from imports + symbol membership; call-graph detail is in L3_REFERENCE.json.",
+  "repo_root": "A:\\git\\OC",
+  "schema": "zkme.change_impact.v1",
+  "snapshot_digest": "f6d78848769d95ee2343c33a8966fa3ab720695c"
+}

@@ -1,0 +1,23 @@
+{
+  "generatedBy": "ZKME deterministic lead-QA designer",
+  "qualityPolicy": {
+    "defaultThreshold": 65,
+    "highRiskThreshold": 75,
+    "manualCaseRequires": [
+      "architecture evidence",
+      "UI/mobile/desktop validation when applicable",
+      "API validation when applicable",
+      "DB validation when applicable",
+      "auth negative validation when applicable",
+      "audit/report/log validation when applicable",
+      "cleanup and artifact capture"
+    ]
+  },
+  "schemaVersion": "zkme.lead-qa-test-design-quality.v1",
+  "scores": [],
+  "summary": {
+    "features": 0,
+    "needsEnrichment": 0,
+    "passed": 0
+  }
+}

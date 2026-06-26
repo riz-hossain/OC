@@ -1,0 +1,14 @@
+{
+  "pages": [],
+  "selectors": [],
+  "navigation_edges": [],
+  "selector_priority": [
+    "data-automation",
+    "data-testid",
+    "data-test",
+    "aria-label",
+    "id",
+    "name",
+    "class"
+  ]
+}

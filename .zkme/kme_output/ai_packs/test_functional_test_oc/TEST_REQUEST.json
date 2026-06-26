@@ -1,0 +1,7 @@
+{
+  "test_title": "Functional Test - OC",
+  "objective": "Verify core functionality of OC. Navigate through primary flows, perform key actions, and validate expected application behaviour.",
+  "flow_steps": null,
+  "constraints": {},
+  "generated_at_utc": "2026-06-26T01:50:04Z"
+}

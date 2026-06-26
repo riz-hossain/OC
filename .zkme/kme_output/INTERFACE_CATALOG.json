@@ -1,0 +1,6 @@
+{
+  "version": "1.0",
+  "description": "All detected interfaces (HTTP, gRPC, CLI, UI, job, lib, etc.)",
+  "total": 0,
+  "interfaces": []
+}

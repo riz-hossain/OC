@@ -1,0 +1,7 @@
+{
+  "portableTestcaseDir": "qa/automation/local-runner/test-cases/zkme-generated/",
+  "reportDir": "qa/automation/reports/zeuz-compatible/",
+  "schemaVersion": "zkme.zeuz-local-run.v1",
+  "serverRequired": false,
+  "testPackageDir": "qa/automation/testcases/zkme-generated/"
+}

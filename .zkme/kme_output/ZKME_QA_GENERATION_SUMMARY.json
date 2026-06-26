@@ -1,0 +1,39 @@
+{
+  "counts": {
+    "api": 0,
+    "db": 0,
+    "leadQaFeatures": 0,
+    "leadQaManualCases": 0,
+    "leadQaNeedsEnrichment": 0,
+    "leadQaTraceabilityRows": 0,
+    "mobile": 0,
+    "portable": 0,
+    "testPackages": 0,
+    "total": 0,
+    "unit": 0,
+    "web": 0,
+    "zeuzDrafts": 0
+  },
+  "generatedAt": "2026-06-26T01:50:04.752836Z",
+  "generatedFiles": [
+    "qa/feature-architecture-map.json",
+    "qa/workflow-map.json",
+    "qa/test-oracles.json",
+    "qa/risk-matrix.json",
+    "qa/test-data-matrix.json",
+    "qa/traceability-matrix.json",
+    "qa/test-design-quality.json",
+    "qa/test-intelligence.json",
+    "qa/test-inventory.json",
+    "qa/automation/zeuz/zkme-generated-export-manifest.json",
+    "qa/automation/zeuz/tc.generated.json",
+    "qa/automation/zeuz/Local_run.generated.json",
+    "qa/automation/zeuz/ZEUZ_FUNCTION_CATALOG.md",
+    "qa/automation/zeuz/AUTOMATION_SOLUTIONZ_ZEUZ_KIT.md",
+    "qa/automation/zeuz/zeuz_function_catalog.v1.json",
+    "qa/automation/zeuz/automation_solutionz_zeuz_kit.v1.json"
+  ],
+  "project": "OC",
+  "scaffoldedFiles": [],
+  "schemaVersion": "zkme.qa-generation-summary.v1"
+}

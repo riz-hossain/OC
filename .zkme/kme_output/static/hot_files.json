@@ -1,0 +1,26 @@
+{
+  "note": "ACTIVE/LEGACY is heuristic. Hot list blends importance, git churn, and import fan-in.",
+  "schema": "zkme.hot_files.v2",
+  "top": [
+    {
+      "active_status": "UNKNOWN",
+      "churn": 1,
+      "fan_in": 0,
+      "importance_score": 0.0,
+      "path": "orange_circle_platformer.html",
+      "reasons": [
+        "churn"
+      ]
+    },
+    {
+      "active_status": "UNKNOWN",
+      "churn": 1,
+      "fan_in": 0,
+      "importance_score": 0.0,
+      "path": "README.md",
+      "reasons": [
+        "churn"
+      ]
+    }
+  ]
+}

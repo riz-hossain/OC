@@ -1,0 +1,432 @@
+{
+  "testCase": {
+    "testCaseDetail": {
+      "id": "TEST-0001",
+      "name": "Functional Test - OC",
+      "priority": "P2",
+      "type": "",
+      "localization": "Yes",
+      "createdBy": 0,
+      "creationDate": "2026-06-25 00:00:00 +0000 UTC",
+      "modifiedBy": 0,
+      "modifyDate": "2026-06-25 00:00:00 +0000 UTC",
+      "testCaseType": "Automated",
+      "time": "00:05:00",
+      "automatability": "Automated",
+      "preRequisite": null
+    },
+    "steps": [
+      {
+        "id": 1000,
+        "testCaseId": "TEST-0001",
+        "stepId": 100,
+        "name": "Init Variables",
+        "description": "<p>Initialize test variables and environment.</p>",
+        "expected": "<p>Variables initialized.</p>",
+        "hasData": true,
+        "verifyPoint": false,
+        "continuePoint": false,
+        "time": 30,
+        "sequence": 1,
+        "type": "normal",
+        "stepInfo": {
+          "description": "<p>Initialize test variables and environment.</p>",
+          "driver": "Built_In_Driver",
+          "stepType": "automated",
+          "dataRequired": true,
+          "stepFeature": "0",
+          "stepEnable": true,
+          "stepEditable": true,
+          "caseDesc": "<p>Initialize test variables and environment.</p>",
+          "expected": "<p>Variables initialized.</p>",
+          "verifyPoint": false,
+          "stepContinue": false,
+          "estdTime": "30",
+          "automatable": "Desktop",
+          "createdBy": "0",
+          "createdDate": "2026-06-25 00:00:00",
+          "modifiedBy": "0",
+          "modifiedDate": "2026-06-25 00:00:00",
+          "projectId": "PROJ-1",
+          "teamId": "1",
+          "alwaysRun": false,
+          "runOnFail": false,
+          "attachments": []
+        },
+        "actions": [
+          {
+            "id": 10000,
+            "stepId": 100,
+            "name": "None",
+            "rows": [
+              {
+                "id": 100000,
+                "data": [
+                  "data",
+                  "element parameter",
+                  "UNKNOWN"
+                ],
+                "sequence": 1
+              },
+              {
+                "id": 200000,
+                "data": [
+                  "operation",
+                  "element parameter",
+                  "save"
+                ],
+                "sequence": 2
+              },
+              {
+                "id": 300000,
+                "data": [
+                  "save into variable",
+                  "common action",
+                  "base_url"
+                ],
+                "sequence": 3
+              }
+            ],
+            "sequence": 1,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": 2000,
+        "testCaseId": "TEST-0001",
+        "stepId": 200,
+        "name": "Navigate to Application",
+        "description": "<p>Open the target URL in the browser.</p>",
+        "expected": "<p>Browser opens the target page.</p>",
+        "hasData": true,
+        "verifyPoint": false,
+        "continuePoint": false,
+        "time": 30,
+        "sequence": 2,
+        "type": "normal",
+        "stepInfo": {
+          "description": "<p>Open the target URL in the browser.</p>",
+          "driver": "Built_In_Driver",
+          "stepType": "automated",
+          "dataRequired": true,
+          "stepFeature": "0",
+          "stepEnable": true,
+          "stepEditable": true,
+          "caseDesc": "<p>Open the target URL in the browser.</p>",
+          "expected": "<p>Browser opens the target page.</p>",
+          "verifyPoint": false,
+          "stepContinue": false,
+          "estdTime": "30",
+          "automatable": "Desktop",
+          "createdBy": "0",
+          "createdDate": "2026-06-25 00:00:00",
+          "modifiedBy": "0",
+          "modifiedDate": "2026-06-25 00:00:00",
+          "projectId": "PROJ-1",
+          "teamId": "1",
+          "alwaysRun": false,
+          "runOnFail": false,
+          "attachments": []
+        },
+        "actions": [
+          {
+            "id": 20000,
+            "stepId": 200,
+            "name": "None",
+            "rows": [
+              {
+                "id": 100000,
+                "data": [
+                  "url",
+                  "element parameter",
+                  "%|base_url|%"
+                ],
+                "sequence": 1
+              },
+              {
+                "id": 200000,
+                "data": [
+                  "go to url",
+                  "selenium action",
+                  "go to url"
+                ],
+                "sequence": 2
+              }
+            ],
+            "sequence": 1,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": 3000,
+        "testCaseId": "TEST-0001",
+        "stepId": 300,
+        "name": "Wait for Page Load",
+        "description": "<p>Wait for the page to fully load.</p>",
+        "expected": "<p>Page loaded.</p>",
+        "hasData": true,
+        "verifyPoint": false,
+        "continuePoint": false,
+        "time": 30,
+        "sequence": 3,
+        "type": "normal",
+        "stepInfo": {
+          "description": "<p>Wait for the page to fully load.</p>",
+          "driver": "Built_In_Driver",
+          "stepType": "automated",
+          "dataRequired": true,
+          "stepFeature": "0",
+          "stepEnable": true,
+          "stepEditable": true,
+          "caseDesc": "<p>Wait for the page to fully load.</p>",
+          "expected": "<p>Page loaded.</p>",
+          "verifyPoint": false,
+          "stepContinue": false,
+          "estdTime": "30",
+          "automatable": "Desktop",
+          "createdBy": "0",
+          "createdDate": "2026-06-25 00:00:00",
+          "modifiedBy": "0",
+          "modifiedDate": "2026-06-25 00:00:00",
+          "projectId": "PROJ-1",
+          "teamId": "1",
+          "alwaysRun": false,
+          "runOnFail": false,
+          "attachments": []
+        },
+        "actions": [
+          {
+            "id": 30000,
+            "stepId": 300,
+            "name": "None",
+            "rows": [
+              {
+                "id": 100000,
+                "data": [
+                  "sleep",
+                  "common action",
+                  "3"
+                ],
+                "sequence": 1
+              }
+            ],
+            "sequence": 1,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": 4000,
+        "testCaseId": "TEST-0001",
+        "stepId": 400,
+        "name": "Perform Primary Action",
+        "description": "<p>Interact with the primary UI element to complete the test objective.</p>",
+        "expected": "<p>Action completes successfully.</p>",
+        "hasData": true,
+        "verifyPoint": false,
+        "continuePoint": false,
+        "time": 30,
+        "sequence": 4,
+        "type": "normal",
+        "stepInfo": {
+          "description": "<p>Interact with the primary UI element to complete the test objective.</p>",
+          "driver": "Built_In_Driver",
+          "stepType": "automated",
+          "dataRequired": true,
+          "stepFeature": "0",
+          "stepEnable": true,
+          "stepEditable": true,
+          "caseDesc": "<p>Interact with the primary UI element to complete the test objective.</p>",
+          "expected": "<p>Action completes successfully.</p>",
+          "verifyPoint": false,
+          "stepContinue": false,
+          "estdTime": "30",
+          "automatable": "Desktop",
+          "createdBy": "0",
+          "createdDate": "2026-06-25 00:00:00",
+          "modifiedBy": "0",
+          "modifiedDate": "2026-06-25 00:00:00",
+          "projectId": "PROJ-1",
+          "teamId": "1",
+          "alwaysRun": false,
+          "runOnFail": false,
+          "attachments": []
+        },
+        "actions": [
+          {
+            "id": 40000,
+            "stepId": 400,
+            "name": "None",
+            "rows": [
+              {
+                "id": 100000,
+                "data": [
+                  "data-testid",
+                  "element parameter",
+                  "UNKNOWN"
+                ],
+                "sequence": 1
+              },
+              {
+                "id": 200000,
+                "data": [
+                  "click",
+                  "selenium action",
+                  "click"
+                ],
+                "sequence": 2
+              }
+            ],
+            "sequence": 1,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": 5000,
+        "testCaseId": "TEST-0001",
+        "stepId": 500,
+        "name": "Validate Database State",
+        "description": "<p>Execute DB query to validate expected state.</p>",
+        "expected": "<p>Database record matches expected values.</p>",
+        "hasData": true,
+        "verifyPoint": false,
+        "continuePoint": false,
+        "time": 30,
+        "sequence": 5,
+        "type": "normal",
+        "stepInfo": {
+          "description": "<p>Execute DB query to validate expected state.</p>",
+          "driver": "Built_In_Driver",
+          "stepType": "automated",
+          "dataRequired": true,
+          "stepFeature": "0",
+          "stepEnable": true,
+          "stepEditable": true,
+          "caseDesc": "<p>Execute DB query to validate expected state.</p>",
+          "expected": "<p>Database record matches expected values.</p>",
+          "verifyPoint": false,
+          "stepContinue": false,
+          "estdTime": "30",
+          "automatable": "Desktop",
+          "createdBy": "0",
+          "createdDate": "2026-06-25 00:00:00",
+          "modifiedBy": "0",
+          "modifiedDate": "2026-06-25 00:00:00",
+          "projectId": "PROJ-1",
+          "teamId": "1",
+          "alwaysRun": false,
+          "runOnFail": false,
+          "attachments": []
+        },
+        "actions": [
+          {
+            "id": 50000,
+            "stepId": 500,
+            "name": "None",
+            "rows": [
+              {
+                "id": 100000,
+                "data": [
+                  "query",
+                  "input parameter",
+                  "UNKNOWN"
+                ],
+                "sequence": 1
+              },
+              {
+                "id": 200000,
+                "data": [
+                  "select query",
+                  "database action",
+                  "db_result"
+                ],
+                "sequence": 2
+              }
+            ],
+            "sequence": 1,
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "id": 6000,
+        "testCaseId": "TEST-0001",
+        "stepId": 600,
+        "name": "Verify Expected Outcome",
+        "description": "<p>Assert that the expected UI state is visible.</p>",
+        "expected": "<p>Expected element/text is visible.</p>",
+        "hasData": true,
+        "verifyPoint": false,
+        "continuePoint": false,
+        "time": 30,
+        "sequence": 6,
+        "type": "normal",
+        "stepInfo": {
+          "description": "<p>Assert that the expected UI state is visible.</p>",
+          "driver": "Built_In_Driver",
+          "stepType": "automated",
+          "dataRequired": true,
+          "stepFeature": "0",
+          "stepEnable": true,
+          "stepEditable": true,
+          "caseDesc": "<p>Assert that the expected UI state is visible.</p>",
+          "expected": "<p>Expected element/text is visible.</p>",
+          "verifyPoint": false,
+          "stepContinue": false,
+          "estdTime": "30",
+          "automatable": "Desktop",
+          "createdBy": "0",
+          "createdDate": "2026-06-25 00:00:00",
+          "modifiedBy": "0",
+          "modifiedDate": "2026-06-25 00:00:00",
+          "projectId": "PROJ-1",
+          "teamId": "1",
+          "alwaysRun": false,
+          "runOnFail": false,
+          "attachments": []
+        },
+        "actions": [
+          {
+            "id": 60000,
+            "stepId": 600,
+            "name": "None",
+            "rows": [
+              {
+                "id": 100000,
+                "data": [
+                  "data-testid",
+                  "element parameter",
+                  "UNKNOWN"
+                ],
+                "sequence": 1
+              },
+              {
+                "id": 200000,
+                "data": [
+                  "compare",
+                  "element parameter",
+                  "UNKNOWN"
+                ],
+                "sequence": 2
+              },
+              {
+                "id": 300000,
+                "data": [
+                  "verify text",
+                  "selenium action",
+                  "verify text"
+                ],
+                "sequence": 3
+              }
+            ],
+            "sequence": 1,
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+}

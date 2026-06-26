@@ -1,0 +1,13 @@
+{
+  "description": "Index of real ZeuZ test case examples. AI agents should study these BEFORE generating new tests to learn correct patterns.",
+  "total_examples": 0,
+  "categories": {
+    "ui": 0,
+    "api": 0,
+    "mobile": 0,
+    "db": 0,
+    "e2e": 0,
+    "mixed": 0
+  },
+  "examples": []
+}

@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "zkme-zeuz-compatible-report.schema.json",
+  "title": "ZKME ZeuZ-Compatible Local Report",
+  "type": "object",
+  "required": ["schemaVersion", "run", "summary", "testCases"],
+  "properties": {
+    "schemaVersion": {
+      "const": "zkme.zeuz-compatible-report.v1"
+    },
+    "run": {
+      "type": "object",
+      "required": ["id", "startedAt", "environment"],
+      "properties": {
+        "id": {"type": "string"},
+        "source": {"enum": ["local-zkme-runner", "playwright", "api", "zeuz-node", "manual"]},
+        "startedAt": {"type": "string"},
+        "endedAt": {"type": "string"},
+        "environment": {"type": "string"},
+        "machine": {"type": "string"},
+        "browser": {"type": "string"},
+        "device": {"type": "string"},
+        "zeuzRunId": {"type": "string"}
+      }
+    },
+    "zeuzImport": {
+      "type": "object",
+      "properties": {
+        "serverRequired": {"type": "boolean"},
+        "status": {
+          "enum": ["local-only", "ready-for-import", "imported", "blocked"]
+        },
+        "testCaseImportTarget": {"type": "string"},
+        "resultImportTarget": {"type": "string"},
+        "artifactImportTarget": {"type": "string"},
+        "nativeResultPath": {
+          "const": "zeuzExecutionLog[].test_cases[].execution_detail"
+        },
+        "nativeStepResultPath": {
+          "const": "zeuzExecutionLog[].test_cases[].steps[].execution_detail"
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["status", "passed", "failed", "skipped"],
+      "properties": {
+        "status": {"enum": ["passed", "failed", "skipped", "blocked"]},
+        "passed": {"type": "integer"},
+        "failed": {"type": "integer"},
+        "skipped": {"type": "integer"},
+        "durationMs": {"type": "integer"}
+      }
+    },
+    "testCases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "status", "steps"],
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string"},
+          "status": {"enum": ["passed", "failed", "skipped", "blocked"]},
+          "zeuzStatus": {"enum": ["Passed", "Failed", "Skipped", "Blocked"]},
+          "zeuzTcPath": {"type": "string"},
+          "portableTcPath": {"type": "string"},
+          "evidence": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "name", "status"],
+              "properties": {
+                "id": {"type": "string"},
+                "stepKey": {"type": "string"},
+                "name": {"type": "string"},
+                "status": {"enum": ["passed", "failed", "skipped", "blocked"]},
+                "zeuzStatus": {"enum": ["Passed", "Failed", "Skipped", "Blocked"]},
+                "zeuzStepId": {"type": "integer"},
+                "zeuzStepName": {"type": "string"},
+                "zeuzStepSequence": {"type": "integer"},
+                "durationMs": {"type": "integer"},
+                "message": {"type": "string"},
+                "artifacts": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "kind": {"enum": ["screenshot", "trace", "video", "log", "json", "html"]},
+                      "path": {"type": "string"}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "zeuzExecutionLog": {
+      "type": "array",
+      "description": "Projection of ZeuZ Node CommonUtil.all_logs_json for create_report_log_api/ and /api/v1/tasks/update-test-results compatibility.",
+      "items": {
+        "type": "object",
+        "required": ["run_id", "test_cases"],
+        "properties": {
+          "run_id": {"type": "string"},
+          "machine_name": {"type": "string"},
+          "execution_detail": {"type": "object"},
+          "test_cases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["testcase_no", "title", "steps"],
+              "properties": {
+                "testcase_no": {"type": "string"},
+                "title": {"type": "string"},
+                "execution_detail": {
+                  "type": "object",
+                  "properties": {
+                    "teststarttime": {"type": "string"},
+                    "testendtime": {"type": "string"},
+                    "duration": {"type": "string"},
+                    "status": {"enum": ["Passed", "Failed", "Skipped", "Blocked"]},
+                    "failreason": {"type": "string"},
+                    "logid": {"type": "string"}
+                  }
+                },
+                "steps": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["step_id", "step_sequence"],
+                    "properties": {
+                      "step_id": {"type": "integer"},
+                      "step_key": {"type": "string"},
+                      "step_sequence": {"type": "integer"},
+                      "name": {"type": "string"},
+                      "execution_detail": {
+                        "type": "object",
+                        "properties": {
+                          "stepstarttime": {"type": "string"},
+                          "stependtime": {"type": "string"},
+                          "duration": {"type": "string"},
+                          "status": {"enum": ["Passed", "Failed", "Skipped", "Blocked"]},
+                          "logid": {"type": "string"}
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

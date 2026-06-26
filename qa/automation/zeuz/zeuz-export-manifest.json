@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "zkme.zeuz-export-manifest.v1",
+  "generatedBy": "ZKME",
+  "project": "OC",
+  "status": "draft",
+  "zeuzServerRequired": false,
+  "testCases": [],
+  "globalSteps": [],
+  "localRuns": [],
+  "notes": [
+    "AI agents should add draft ZeuZ-compatible entries here when feature work creates cross-surface test coverage.",
+    "Do not sync to ZeuZ Server as reviewed/approved without human review."
+  ]
+}

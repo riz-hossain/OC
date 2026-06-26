@@ -1,0 +1,18 @@
+{
+  "features": [],
+  "generatedBy": "ZKME deterministic lead-QA designer",
+  "schemaVersion": "zkme.lead-qa-feature-architecture.v1",
+  "strategy": "platform-neutral feature map with web, mobile, desktop, API, DB, auth, async, integration, and reporting evidence.",
+  "summary": {
+    "apiSurfaces": 0,
+    "authSignals": 0,
+    "dbTables": 0,
+    "desktopSurfaces": 0,
+    "features": 0,
+    "integrations": 0,
+    "mobileSurfaces": 0,
+    "queues": 0,
+    "reportAuditLogSignals": 0,
+    "webSurfaces": 0
+  }
+}

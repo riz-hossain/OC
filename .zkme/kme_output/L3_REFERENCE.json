@@ -1,0 +1,113 @@
+{
+  "root_path": "A:\\git\\OC",
+  "files": [
+    {
+      "path": "orange_circle_platformer.html",
+      "language": "html",
+      "size_bytes": 48309,
+      "hash": "",
+      "is_generated": false,
+      "is_test": false,
+      "is_config": false,
+      "is_documentation": false
+    },
+    {
+      "path": "README.md",
+      "language": "markdown",
+      "size_bytes": 21,
+      "hash": "",
+      "is_generated": false,
+      "is_test": false,
+      "is_config": false,
+      "is_documentation": true
+    }
+  ],
+  "symbols": [],
+  "interfaces": [],
+  "data_touches": [],
+  "features": [],
+  "workflows": [],
+  "hazards": [],
+  "types": [],
+  "decorators": [],
+  "call_edges": [],
+  "imports": [],
+  "schemas": [],
+  "config_keys": [],
+  "database_schema": {},
+  "elasticsearch_schema": {},
+  "metadata": {
+    "languages": {
+      "html": 1,
+      "markdown": 1
+    },
+    "total_files": 2,
+    "total_symbols": 0,
+    "total_call_edges": 0,
+    "total_imports": 0,
+    "total_schemas": 0,
+    "total_config_keys": 0,
+    "has_database_schema": false,
+    "has_elasticsearch_schema": false,
+    "scanner": "generic",
+    "test_coverage_map": {},
+    "repo_profile": {
+      "repo_kind": "unknown",
+      "languages": {
+        "html": 1,
+        "markdown": 1
+      },
+      "build_systems": [],
+      "service_roots": [],
+      "recommended_ignores": [
+        ".git/",
+        ".hg/",
+        ".idea/",
+        ".mypy_cache/",
+        ".pytest_cache/",
+        ".ruff_cache/",
+        ".svn/",
+        ".venv/",
+        ".vscode/",
+        "bin/",
+        "build/",
+        "dist/",
+        "node_modules/",
+        "obj/",
+        "out/",
+        "target/",
+        "venv/"
+      ],
+      "notes": [
+        "No clear build roots detected; repo structure may be non-standard."
+      ],
+      "confidence": "low"
+    }
+  },
+  "provenance": {
+    "generic_scanner:files": [
+      "count=2"
+    ],
+    "generic_scanner:symbols": [
+      "count=0"
+    ],
+    "generic_scanner:call_edges": [
+      "count=0"
+    ],
+    "generic_scanner:imports": [
+      "count=0"
+    ],
+    "generic_scanner:schemas": [
+      "count=0"
+    ],
+    "generic_scanner:config_keys": [
+      "count=0"
+    ],
+    "generic_scanner:database_schema": [
+      "count=0"
+    ],
+    "generic_scanner:elasticsearch_schema": [
+      "count=0"
+    ]
+  }
+}

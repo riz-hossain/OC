@@ -1,0 +1,43 @@
+{
+  "constraints": [
+    {
+      "constraint_type": "canvas",
+      "description": "Canvas detected: <canvas",
+      "file": "orange_circle_platformer.html",
+      "line": 272,
+      "automation_impact": "requires_visual_testing_or_api",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 272
+        }
+      ],
+      "surface_id": "global"
+    },
+    {
+      "constraint_type": "rich_text_editor",
+      "description": "Rich Text Editor detected: slate",
+      "file": "orange_circle_platformer.html",
+      "line": 947,
+      "automation_impact": "requires_contenteditable_handling",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        {
+          "file": "orange_circle_platformer.html",
+          "line": 947
+        }
+      ],
+      "surface_id": "global"
+    }
+  ],
+  "total": 2,
+  "by_type": {
+    "canvas": 1,
+    "rich_text_editor": 1
+  },
+  "by_impact": {
+    "requires_visual_testing_or_api": 1,
+    "requires_contenteditable_handling": 1
+  }
+}

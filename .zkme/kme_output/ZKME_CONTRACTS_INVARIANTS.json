@@ -1,0 +1,79 @@
+{
+  "contracts": [
+    {
+      "classification": "fact",
+      "evidence": [
+        {
+          "path": "orange_circle_platformer.html"
+        }
+      ],
+      "file": "orange_circle_platformer.html",
+      "signals": [
+        {
+          "classification": "fact",
+          "evidence": [
+            {
+              "line_end": 1065,
+              "line_start": 48,
+              "path": "orange_circle_platformer.html"
+            }
+          ],
+          "occurrences": [
+            {
+              "line": 48,
+              "text": "transition: all 0.2s ease;"
+            },
+            {
+              "line": 100,
+              "text": "transition: transform 0.1s, background 0.2s;"
+            },
+            {
+              "line": 339,
+              "text": "// Editor specific state"
+            },
+            {
+              "line": 646,
+              "text": "triggerComboIncrease(1); // Perfect slide transition!"
+            },
+            {
+              "line": 1065,
+              "text": "// Standard State"
+            }
+          ],
+          "type": "state"
+        },
+        {
+          "classification": "fact",
+          "evidence": [
+            {
+              "line_end": 489,
+              "line_start": 470,
+              "path": "orange_circle_platformer.html"
+            }
+          ],
+          "occurrences": [
+            {
+              "line": 470,
+              "text": "console.error(e);"
+            },
+            {
+              "line": 479,
+              "text": "if (!Array.isArray(data)) throw new Error(\"Not an array\");"
+            },
+            {
+              "line": 489,
+              "text": "console.error(e);"
+            }
+          ],
+          "type": "error"
+        }
+      ]
+    }
+  ],
+  "fact_policy": {
+    "fact_definition": "Entries are evidence-anchored file-level signals; verify semantics before refactors."
+  },
+  "repo_root": "A:\\git\\OC",
+  "schema": "zkme.contracts_invariants.v2",
+  "snapshot_digest": "f6d78848769d95ee2343c33a8966fa3ab720695c"
+}

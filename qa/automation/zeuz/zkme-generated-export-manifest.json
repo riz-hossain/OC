@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-06-26T01:50:04.749721Z",
+  "portableTestcases": [],
+  "reportDir": "qa/automation/reports/zeuz-compatible/",
+  "reportFormat": "zkme.zeuz-compatible-report.v1",
+  "schemaVersion": "zkme.zeuz-export-manifest.v1",
+  "source": "ZKME generated QA automation assets",
+  "testPackages": [],
+  "zeuzDrafts": [],
+  "zeuzPackageActions": []
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "zkme-test-package.schema.json",
+  "title": "ZKME Testcase Package",
+  "type": "object",
+  "required": ["schemaVersion", "packageId", "testcaseId", "sourceOfTruth", "implementations", "reporting"],
+  "properties": {
+    "schemaVersion": {"const": "zkme.test-package.v1"},
+    "packageId": {"type": "string"},
+    "testcaseId": {"type": "string"},
+    "title": {"type": "string"},
+    "risk": {"type": "string"},
+    "confidence": {"type": "string"},
+    "sourceOfTruth": {
+      "type": "object",
+      "required": ["logicalTestcase"],
+      "properties": {
+        "logicalTestcase": {"type": "string"},
+        "zeuzBindings": {"type": "string"},
+        "stepIdentityRule": {"type": "string"}
+      }
+    },
+    "identityPolicy": {
+      "type": "object",
+      "properties": {
+        "testcaseIdentity": {"type": "string"},
+        "stepIdentity": {"const": "stepKey"},
+        "zeuzNameBinding": {"const": "stepName"},
+        "zeuzStepNameUniqueness": {"type": "string"},
+        "numericZeuzIds": {"type": "string"},
+        "bindingFile": {"type": "string"}
+      }
+    },
+    "implementations": {
+      "type": "object",
+      "properties": {
+        "portable": {"$ref": "#/$defs/implementation"},
+        "playwright": {"$ref": "#/$defs/implementation"},
+        "zeuzActions": {"$ref": "#/$defs/implementation"}
+      }
+    },
+    "fixtures": {
+      "type": "object",
+      "properties": {
+        "dir": {"type": "string"}
+      }
+    },
+    "reporting": {
+      "type": "object",
+      "required": ["reportDir", "zeuzExecutionLog"],
+      "properties": {
+        "reportDir": {"type": "string"},
+        "zeuzExecutionLog": {"type": "boolean"}
+      }
+    }
+  },
+  "$defs": {
+    "implementation": {
+      "type": "object",
+      "required": ["type", "entry"],
+      "properties": {
+        "type": {"type": "string"},
+        "language": {"type": "string"},
+        "entry": {"type": "string"},
+        "runner": {"type": "string"},
+        "generated": {"type": "boolean"}
+      }
+    }
+  }
+}

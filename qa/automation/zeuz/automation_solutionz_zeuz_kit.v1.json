@@ -1,0 +1,204 @@
+{
+  "aiDefaultBehavior": [
+    "For every feature change, create or update a manual test case.",
+    "Create or update unit tests for logic, validation, parsing, state, permissions helpers, or utilities.",
+    "Create or update API/integration tests for routes, contracts, auth, integrations, workers, queues, or DB behavior.",
+    "Create or update Playwright E2E tests for critical web workflows.",
+    "Create ZeuZ-compatible candidates for cross-surface Web/API/DB/Mobile/Desktop/Performance/Security flows.",
+    "Make local execution possible without ZeuZ Server when the repo has enough runnable evidence.",
+    "Prefer one portable testcase as the source of truth; run it through a Playwright adapter locally and export Playwright specs only when useful for developer ergonomics.",
+    "Write ZeuZ-compatible report envelopes for local runs when generated tests execute.",
+    "Include a ZeuZ execution-log projection in local reports so the result can later map into ZeuZ Server result tables.",
+    "Run the QA contract verifier for feature changes so missing manual/unit/API/web/DB/mobile/desktop/portable/ZeuZ evidence is caught locally or in CI.",
+    "Mark low-confidence automation as a manual candidate instead of writing brittle tests."
+  ],
+  "firstPartyRuntime": {
+    "localRepoHint": "A:/git/Zeuz_Python_Node",
+    "name": "Automation Solutionz ZeuZ Node",
+    "officialDevZip": "https://github.com/AutomationSolutionz/Zeuz_Python_Node/archive/refs/heads/dev.zip",
+    "publicRepo": "https://github.com/AutomationSolutionz/Zeuz_Python_Node",
+    "serverRepoHint": "A:/git/ZeuzServer"
+  },
+  "generatedBy": "ZKME",
+  "localExecution": {
+    "localReports": "qa/automation/reports/local/",
+    "playwrightExecutionModes": [
+      "direct-portable-runner-adapter",
+      "generated-playwright-spec-export"
+    ],
+    "playwrightGeneratedSpecs": "qa/automation/web/playwright/generated/",
+    "playwrightSpecExporter": "qa/automation/local-runner/export_playwright_spec.py",
+    "portableExamples": "qa/automation/local-runner/PORTABLE_TESTCASE_EXAMPLES.md",
+    "primaryFormat": "zkme.portable-testcase.v1",
+    "qaContractVerifier": "qa/automation/verify_zkme_qa_contract.py",
+    "reportFormat": "zkme.zeuz-compatible-report.v1",
+    "reportSchema": "qa/automation/reports/zeuz-compatible/zeuz-report.schema.json",
+    "runnerScript": "qa/automation/local-runner/run_zkme_tests.py",
+    "serverRequired": false,
+    "testCaseSchema": "qa/automation/local-runner/zkme-portable-testcase.schema.json",
+    "zeuzReportProjection": "zeuzExecutionLog"
+  },
+  "phase1RepoStructure": {
+    "api": "qa/automation/api/",
+    "database": "qa/automation/db/",
+    "desktop": "qa/automation/desktop/",
+    "e2e": "qa/automation/e2e/",
+    "integration": "qa/automation/integration/",
+    "localRunner": "qa/automation/local-runner/",
+    "manualCases": "qa/manual/test-cases/",
+    "mobile": "qa/automation/mobile/",
+    "qaContractVerifier": "qa/automation/verify_zkme_qa_contract.py",
+    "reports": "qa/automation/reports/",
+    "unit": "qa/automation/unit/",
+    "vendorRuntime": "qa/automation/vendor/zeuz-python-node/",
+    "webPlaywright": "qa/automation/web/playwright/",
+    "zeuzCompatibleReports": "qa/automation/reports/zeuz-compatible/",
+    "zeuzExports": "qa/automation/zeuz/"
+  },
+  "project": "OC",
+  "runtimeInstall": {
+    "defaultMode": "thin-bridge",
+    "fetchScript": "qa/automation/vendor/zeuz-python-node/fetch_zeuz_node.py",
+    "fullRuntimePath": "qa/automation/vendor/zeuz-python-node/runtime/",
+    "officialDevZip": "https://github.com/AutomationSolutionz/Zeuz_Python_Node/archive/refs/heads/dev.zip",
+    "rule": "ZKME must be able to install or copy the ZeuZ Node runtime when a target repo needs full local execution, but the normal target-repo design is ZKME-native: portable testcase JSON, Playwright-first adapters, and ZeuZ-compatible reports.",
+    "sourcePriority": [
+      "local sibling repo: A:/git/Zeuz_Python_Node",
+      "official open-source dev zip"
+    ],
+    "supportedModes": [
+      "thin-bridge",
+      "copy-local-zeuz-node",
+      "download-official-dev-zip"
+    ]
+  },
+  "schemaVersion": "zkme.automation-solutionz-zeuz-kit.v1",
+  "targetRepoLanguageSetup": {
+    "defaultSourceOfTruth": "qa/automation/local-runner/test-cases/*.json",
+    "languages": {
+      "csharp": {
+        "primaryUse": ".NET projects that prefer xUnit/NUnit and Microsoft Playwright",
+        "recommendedTools": [
+          "xUnit or NUnit",
+          "Microsoft.Playwright",
+          "RestSharp",
+          "Appium.WebDriver"
+        ],
+        "reuseMode": "portable testcase JSON plus bridge process until native ZeuZ action wrappers exist"
+      },
+      "java": {
+        "primaryUse": "enterprise API/mobile/web projects that prefer JVM tests",
+        "recommendedTools": [
+          "JUnit 5",
+          "Playwright Java",
+          "REST Assured",
+          "Appium Java Client"
+        ],
+        "reuseMode": "portable testcase JSON plus bridge process until native ZeuZ action wrappers exist"
+      },
+      "javascript": {
+        "primaryUse": "Playwright-first web tests with portable testcase export/import",
+        "recommendedTools": [
+          "@playwright/test",
+          "undici",
+          "ajv",
+          "webdriverio/appium when mobile is enabled"
+        ],
+        "reuseMode": "native Playwright plus Python ZeuZ bridge subprocess for DB/mobile/desktop actions"
+      },
+      "python": {
+        "primaryUse": "native bridge, pytest suites, direct ZeuZ Node function reuse when configured",
+        "recommendedTools": [
+          "pytest",
+          "playwright",
+          "requests",
+          "sqlalchemy",
+          "appium-python-client"
+        ],
+        "reuseMode": "import-or-subprocess ZeuZ_Python_Node plus portable testcase JSON"
+      },
+      "typescript": {
+        "primaryUse": "Playwright-first web tests with portable testcase export/import",
+        "recommendedTools": [
+          "@playwright/test",
+          "undici",
+          "zod",
+          "webdriverio/appium when mobile is enabled"
+        ],
+        "reuseMode": "native Playwright plus Python ZeuZ bridge subprocess for DB/mobile/desktop actions"
+      }
+    },
+    "setupRule": "Generate language-native tests where the repo already has a strong stack, but preserve the portable testcase and ZeuZ-compatible report format across all languages."
+  },
+  "zeuzActionSurfaces": [
+    "web_selenium",
+    "web_playwright",
+    "rest_api",
+    "soap",
+    "database",
+    "mobile_appium",
+    "desktop_windows_mac_linux",
+    "performance",
+    "security",
+    "common_variables_files_control_flow"
+  ],
+  "zeuzServerBridge": {
+    "nativeReportShape": {
+      "runArray": "json_data[]",
+      "source": "ZeuZ Node CommonUtil.all_logs_json",
+      "statusValues": [
+        "Passed",
+        "Failed",
+        "Skipped",
+        "Blocked"
+      ],
+      "stepResultPath": "json_data[].test_cases[].steps[].execution_detail",
+      "testCaseResultPath": "json_data[].test_cases[].execution_detail",
+      "testCasesPath": "json_data[].test_cases[]"
+    },
+    "reportSurfaces": [
+      "ZeuZ Node create_report_log_api/",
+      "/api/v1/tasks/update-test-results",
+      "/api/v1/tasks/process-report-files"
+    ],
+    "reviewedLocalRepos": {
+      "node": "A:/git/Zeuz_Python_Node",
+      "server": "A:/git/ZeuzServer"
+    },
+    "testCaseSurfaces": [
+      "/v1/tc/import/ai/generate",
+      "/v1/tc/step/multiple_actions",
+      "/api/v1/test_case/<id>",
+      "/gql/graphql testing.testCase.createTestCase",
+      "/gql/graphql testing.testCase.replaceStepActions",
+      "/gql/graphql testing.execution.deploy"
+    ]
+  },
+  "zkmeArtifacts": {
+    "actionCookbook": "ZEUZ_ACTION_COOKBOOK.md",
+    "actionReference": "static/zeuz_actions_reference.json",
+    "evidencePack": "ZeuZ_TEST_EVIDENCE_PACK.json",
+    "functionCatalog": "static/zeuz_function_catalog.v1.json",
+    "functionCatalogGuide": "ZEUZ_FUNCTION_CATALOG.md",
+    "portableTestcaseSchema": "qa/automation/local-runner/zkme-portable-testcase.schema.json",
+    "qaContract": "qa/AI_TEST_GENERATION_CONTRACT.md",
+    "qaContractVerifier": "qa/automation/verify_zkme_qa_contract.py",
+    "qaInventory": "qa/test-inventory.json",
+    "skeletonTc": "tc.skeleton.json",
+    "testGuide": "ZEUZ_TEST_GUIDE.md",
+    "zeuzCompatibleReportSchema": "qa/automation/reports/zeuz-compatible/zeuz-report.schema.json"
+  },
+  "zkmeNativeBridge": {
+    "actionModel": "ZeuZ action concepts normalized into portable testcase steps and Playwright-friendly adapter calls.",
+    "defaultTargetRepoMode": "zkme-native-playwright-first",
+    "ownership": "ZAI-KME owns the normalized structure generated into target repos.",
+    "targetRepoOutputs": [
+      "qa/automation/local-runner/test-cases/",
+      "qa/automation/local-runner/adapters/zeuz_bridge/",
+      "qa/automation/local-runner/adapters/python/",
+      "qa/automation/local-runner/adapters/typescript/",
+      "qa/automation/reports/zeuz-compatible/"
+    ],
+    "upstreamSource": "ZeuZ Node action declarations and selected runtime functions are upstream source material."
+  }
+}

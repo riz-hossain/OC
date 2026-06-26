@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "zkme.adapter-config.v1",
+  "description": "Local adapter hooks used by qa/automation/local-runner/run_zkme_tests.py.",
+  "adapters": {
+    "mobile": {
+      "enabled": false,
+      "type": "appium",
+      "remoteUrl": "http://127.0.0.1:4723",
+      "command": [],
+      "timeoutSeconds": 120,
+      "locatorStrategy": "accessibility id",
+      "capabilities": {
+        "platformName": "Android",
+        "automationName": "UiAutomator2"
+      }
+    },
+    "desktop": {
+      "enabled": false,
+      "type": "command",
+      "command": [],
+      "timeoutSeconds": 120
+    },
+    "performance": {
+      "enabled": false,
+      "type": "command",
+      "command": [],
+      "timeoutSeconds": 300,
+      "budgets": {
+        "p95LatencyMs": 1000,
+        "maxErrorRate": 0.01
+      }
+    },
+    "security": {
+      "enabled": false,
+      "type": "command",
+      "command": [],
+      "timeoutSeconds": 300,
+      "profile": "safe-local"
+    }
+  }
+}

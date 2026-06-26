@@ -1,0 +1,356 @@
+{
+  "repo_root": "A:/git/OC",
+  "generated_utc": "2026-06-26T01:50:03.942918Z",
+  "files": [
+    {
+      "path": "orange_circle_platformer.html",
+      "size": 48309,
+      "mtime": 1782438518
+    },
+    {
+      "path": "README.md",
+      "size": 21,
+      "mtime": 1782438518
+    },
+    {
+      "path": ".zkme/kme_output/00_START_HERE.md",
+      "size": 4490,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/claude_context_pack.md",
+      "size": 465,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/claude_context_pack_index.json",
+      "size": 160,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/DATA_TOUCH_MAP.json",
+      "size": 159,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/FEATURE_CATALOG.md",
+      "size": 241,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/feature_graph.json",
+      "size": 554,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/INTERFACE_CATALOG.json",
+      "size": 145,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/KME_AGGREGATION_CANDIDATES.json",
+      "size": 98,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/KME_CONFIDENCE_REPORT.json",
+      "size": 126,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/KME_RECOMMENDED_CONTRACTS.json",
+      "size": 97,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/KNOWN_HAZARDS.md",
+      "size": 141,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/L1_SUMMARY.md",
+      "size": 335,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/L2_CONTEXT.md",
+      "size": 582,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/L3_REFERENCE.json",
+      "size": 2437,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/SYSTEM_OVERVIEW.md",
+      "size": 640,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/WORKFLOW_BOOK.md",
+      "size": 183,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/ZKME_CHANGE_IMPACT.json",
+      "size": 588,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/ZKME_CONTRACTS_INVARIANTS.json",
+      "size": 2109,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/ZKME_FEATURE_REGISTRY.json",
+      "size": 162,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/ZKME_PATCH_PLANNING_PACK.md",
+      "size": 1291,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/ZKME_PATHS.json",
+      "size": 262,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/ZKME_REPO_PROFILE.json",
+      "size": 563,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/active_surface_index.json",
+      "size": 163,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/assertion_anchors.v1.json",
+      "size": 13464,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/ast_errors.json",
+      "size": 139,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/auth_contract.v1.json",
+      "size": 162,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/call_graph.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/config_keys.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/data_matrix.v1.json",
+      "size": 57,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/data_touches.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/db_migrations_intelligence.v1.json",
+      "size": 311,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/decorators.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/desktop_surface.v1.json",
+      "size": 54,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/evidence_index.json",
+      "size": 789,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/features.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/files.json",
+      "size": 449,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/flow_graph.v1.json",
+      "size": 146,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/frontend_calls.json",
+      "size": 152,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/graphql_index.json",
+      "size": 336,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/guard_clauses.v1.json",
+      "size": 59,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/hazards.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/hierarchy.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/hot_files.json",
+      "size": 566,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/imports.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/import_edges.json",
+      "size": 84,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/interfaces.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/layout_tokens.json",
+      "size": 126,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/legacy_surface_index.json",
+      "size": 141,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/locator_policy.v1.json",
+      "size": 781,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/negative_test_matrix.v1.json",
+      "size": 61,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/openapi_surface.v1.json",
+      "size": 70,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/proxy_rules.json",
+      "size": 139,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/ranks.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/realtime_surface.v1.json",
+      "size": 88,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/repo_root_signature.json",
+      "size": 134,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/repo_signals.json",
+      "size": 738,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/routes_detected.json",
+      "size": 229,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/route_contracts.v1.json",
+      "size": 413,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/rule_engine_detection.json",
+      "size": 522,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/runtime_constraints.v1.json",
+      "size": 1087,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/schemas.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/search_backend_detected.json",
+      "size": 316,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/side_effects_map.v1.json",
+      "size": 82,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/state_enum_index.v1.json",
+      "size": 83,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/symbols.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/test_data_contract.v1.json",
+      "size": 259,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/types.json",
+      "size": 4,
+      "mtime": 1782438603
+    },
+    {
+      "path": ".zkme/kme_output/static/ui_event_bindings.v1.json",
+      "size": 176,
+      "mtime": 1782438603
+    }
+  ]
+}

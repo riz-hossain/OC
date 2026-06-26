@@ -1,0 +1,9 @@
+{
+  "auth_detected": false,
+  "login_routes": [],
+  "guards": [],
+  "roles": [],
+  "auth_libraries": [],
+  "auth_config_keys": [],
+  "evidence_refs": []
+}

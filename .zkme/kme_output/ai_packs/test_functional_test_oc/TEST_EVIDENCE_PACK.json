@@ -1,0 +1,294 @@
+{
+  "pack_version": "2.0",
+  "generated_at_utc": "2026-06-26T01:50:04Z",
+  "repo": "OC",
+  "test_request": {
+    "test_title": "Functional Test - OC",
+    "objective": "Verify core functionality of OC. Navigate through primary flows, perform key actions, and validate expected application behaviour.",
+    "flow_steps": null,
+    "constraints": {},
+    "generated_at_utc": "2026-06-26T01:50:04Z"
+  },
+  "inferred_surfaces": [
+    "ui",
+    "desktop",
+    "db"
+  ],
+  "capability_tags": [
+    "ui_navigate",
+    "ui_assert",
+    "desktop_action"
+  ],
+  "query_keywords": [
+    "functional",
+    "test",
+    "oc",
+    "verify",
+    "core",
+    "functionality",
+    "oc",
+    "navigate",
+    "through",
+    "primary",
+    "flows",
+    "perform",
+    "key",
+    "actions",
+    "validate",
+    "expected",
+    "application",
+    "behaviour"
+  ],
+  "page_objects": [],
+  "top_selectors": [],
+  "rest_endpoints": [],
+  "graphql_operations": [],
+  "navigation_flow": null,
+  "db": {
+    "queries": [],
+    "tables": []
+  },
+  "websocket_endpoints": null,
+  "similar_testcases": [],
+  "action_reference": {
+    "selector_priority": [
+      "data-automation",
+      "data-testid",
+      "data-test",
+      "aria-label",
+      "id",
+      "name",
+      "class"
+    ],
+    "capability_tags_needed": [
+      "ui_navigate",
+      "ui_assert",
+      "desktop_action"
+    ],
+    "relevant_actions": []
+  },
+  "test_support": {
+    "assertion_anchors": [
+      {
+        "id": "ANC-0001",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 206,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0002",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 216,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0003",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 227,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0004",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 237,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0005",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 245,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0006",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 265,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0007",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 176,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0008",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 188,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0009",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 189,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0010",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 190,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0011",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 191,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0012",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 192,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0013",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 193,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0014",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 196,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0015",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 197,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0016",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 198,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0017",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 199,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0018",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 207,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0019",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 208,
+        "confidence": "HIGH"
+      },
+      {
+        "id": "ANC-0020",
+        "surface": "",
+        "assertion_type": "",
+        "target": "",
+        "expected_value": "",
+        "file": "orange_circle_platformer.html",
+        "line": 209,
+        "confidence": "HIGH"
+      }
+    ],
+    "test_data": {
+      "parameters": []
+    },
+    "auth_info": {
+      "auth_type": "",
+      "token_location": "",
+      "login_endpoint": "",
+      "logout_endpoint": "",
+      "roles": [],
+      "flows": [],
+      "constraints": []
+    }
+  },
+  "corpus_intelligence": null,
+  "notes": {
+    "selector_rule": "Use preferred_locator.attribute_value as the selector value in ZeuZ rows.",
+    "unknown_rule": "If evidence is not found for a field, output 'UNKNOWN' rather than guessing.",
+    "contract_file": "See TEST_GENERATION_CONTRACT.md for exact tc.json format rules.",
+    "test_support_rule": "Use assertion_anchors for verify steps, negative_cases for error scenario tests, test_data for parameterized inputs, auth_info for login/token setup, top_schemas for payload structure.",
+    "cookbook_file": "See ZEUZ_ACTION_COOKBOOK.md for complete action reference organized by use case (all ~400 actions)."
+  }
+}

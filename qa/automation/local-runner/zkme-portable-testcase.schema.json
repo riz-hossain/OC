@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "zkme-portable-testcase.schema.json",
+  "title": "ZKME Portable Test Case",
+  "type": "object",
+  "required": ["schemaVersion", "id", "title", "steps", "evidence"],
+  "properties": {
+    "schemaVersion": {
+      "const": "zkme.portable-testcase.v1"
+    },
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "risk": {
+      "enum": ["low", "medium", "high"]
+    },
+    "executionModes": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "direct-portable-runner-adapter",
+          "generated-playwright-spec-export",
+          "zeuz-node-candidate",
+          "zeuz-server-sync-draft"
+        ]
+      }
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "enum": ["playwright", "api", "db", "mobile", "desktop", "manual", "zeuz"]
+      }
+    },
+    "playwright": {
+      "type": "object",
+      "properties": {
+        "specPath": {"type": "string"},
+        "baseURL": {"type": "string"},
+        "project": {"type": "string"},
+        "trace": {"enum": ["on", "off", "retain-on-failure"]}
+      }
+    },
+    "zeuz": {
+      "type": "object",
+      "properties": {
+        "testCaseId": {"type": "string"},
+        "folder": {"type": "string"},
+        "feature": {"type": "string"},
+        "syncStatus": {
+          "enum": ["local-only", "draft-ready", "synced", "blocked"]
+        },
+        "serverImportMode": {
+          "enum": ["none", "manual-import", "api-draft-sync", "result-only-import"]
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "intent", "adapter", "action", "expected"],
+        "properties": {
+          "id": {"type": "string"},
+          "stepKey": {"type": "string"},
+          "stepName": {"type": "string"},
+          "intent": {"type": "string"},
+          "adapter": {
+            "enum": ["playwright", "api", "db", "mobile", "desktop", "manual"]
+          },
+          "action": {"type": "string"},
+          "selector": {"type": "string"},
+          "playwright": {
+            "type": "object",
+            "properties": {
+              "method": {"type": "string"},
+              "locator": {"type": "string"},
+              "assertion": {"type": "string"},
+              "timeoutMs": {"type": "integer"},
+              "testId": {"type": "string"}
+            }
+          },
+          "input": {},
+          "expected": {"type": "string"},
+          "zeuzMapping": {
+            "type": "object",
+            "properties": {
+              "stepKey": {"type": "string"},
+              "stepName": {"type": "string"},
+              "stepSequence": {"type": "integer"},
+              "stepId": {"type": "integer"},
+              "actionType": {"type": "string"},
+              "actionLabel": {"type": "string"},
+              "actionName": {"type": "string"},
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "minItems": 3,
+                  "maxItems": 3,
+                  "items": {"type": "string"}
+                }
+              }
+            }
+          },
+          "zeuzBinding": {
+            "type": "object",
+            "properties": {
+              "stepKey": {"type": "string"},
+              "stepName": {"type": "string"},
+              "zeuzStepName": {"type": "string"},
+              "stepSequence": {"type": "integer"},
+              "zeuzStepId": {"type": ["integer", "null"]},
+              "bindingStatus": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

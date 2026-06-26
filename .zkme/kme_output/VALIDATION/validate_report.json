@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "message": "",
+      "name": "manifest_exists",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "file_index_count",
+      "status": "PASS"
+    },
+    {
+      "message": "",
+      "name": "packs_exist",
+      "status": "PASS"
+    }
+  ],
+  "generated_utc": "2026-06-26T01:50:04.134794+00:00",
+  "status": "PASS",
+  "summary": {
+    "failed": 0,
+    "passed": 3,
+    "total": 3
+  }
+}

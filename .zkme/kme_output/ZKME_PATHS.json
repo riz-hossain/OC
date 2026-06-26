@@ -1,0 +1,7 @@
+{
+  "note": "Golden paths are call-chain approximations from resolved call edges. Failure signals are heuristic.",
+  "paths": [],
+  "repo_root": "A:\\git\\OC",
+  "schema": "zkme.paths.v1",
+  "snapshot_digest": "f6d78848769d95ee2343c33a8966fa3ab720695c"
+}

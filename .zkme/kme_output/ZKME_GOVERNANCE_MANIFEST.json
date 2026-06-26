@@ -1,0 +1,655 @@
+{
+  "artifactCitations": {
+    "architectureStandards": [
+      "SYSTEM_OVERVIEW.md",
+      "L2_CONTEXT.md",
+      "ZKME_REPO_PROFILE.json",
+      "static/files.json"
+    ],
+    "databaseStandards": [
+      "static/db_migrations_intelligence.v1.json",
+      "DATA_TOUCH_MAP.json"
+    ],
+    "developmentStandards": [
+      "ZKME_CHANGE_IMPACT.json",
+      "ZKME_CONTRACTS_INVARIANTS.json",
+      "static/hot_files.json"
+    ],
+    "i18nStandards": [
+      "static/files.json"
+    ],
+    "performanceStandards": [
+      "static/runtime_constraints.v1.json",
+      "static/hot_files.json",
+      "ZKME_CHANGE_IMPACT.json"
+    ],
+    "qaStandards": [
+      "static/negative_test_matrix.v1.json",
+      "static/assertion_anchors.v1.json",
+      "static/data_matrix.v1.json"
+    ],
+    "reportingStandard": [
+      "00_START_HERE.md"
+    ],
+    "securityStandards": [
+      "static/auth_contract.v1.json",
+      "KNOWN_HAZARDS.md",
+      "static/hazards.json"
+    ],
+    "uiUxStandards": [
+      "static/locator_policy.v1.json",
+      "static/layout_tokens.json",
+      "static/ui_event_bindings.v1.json",
+      "static/frontend_calls.json"
+    ]
+  },
+  "detectedCommands": {
+    "build": [],
+    "install": [],
+    "lint": [],
+    "test": [],
+    "typecheck": []
+  },
+  "generatedAt": "2026-06-26T01:50:04Z",
+  "generatedFiles": [
+    {
+      "installedToRoot": false,
+      "kind": "agent_instruction",
+      "path": ".zkme/generated-governance/AGENTS.generated.md",
+      "sourceTemplate": "agents.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "development_standard",
+      "path": ".zkme/generated-governance/DEVELOPMENT_STANDARDS.md",
+      "sourceTemplate": "development_standards.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "ui_ux_standard",
+      "path": ".zkme/generated-governance/UI_UX_STANDARDS.md",
+      "sourceTemplate": "ui_ux_standards.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_standard",
+      "path": ".zkme/generated-governance/QA_AUTOMATION_STANDARDS.md",
+      "sourceTemplate": "qa_automation_standards.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "security_standard",
+      "path": ".zkme/generated-governance/SECURITY_STANDARDS.md",
+      "sourceTemplate": "security_standards.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "performance_standard",
+      "path": ".zkme/generated-governance/PERFORMANCE_STANDARDS.md",
+      "sourceTemplate": "performance_standards.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "database_standard",
+      "path": ".zkme/generated-governance/DATABASE_STANDARDS.md",
+      "sourceTemplate": "database_standards.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "i18n_standard",
+      "path": ".zkme/generated-governance/I18N_STANDARDS.md",
+      "sourceTemplate": "i18n_standards.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "reporting_standard",
+      "path": ".zkme/generated-governance/ZKME_REPORTING_STANDARD.md",
+      "sourceTemplate": "zkme_reporting_standard.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "report_template",
+      "path": ".zkme/generated-governance/TASK_EXECUTION_REPORT.md",
+      "sourceTemplate": "task_execution_report.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "checkpoint_template",
+      "path": ".zkme/generated-governance/QUARTER_REVIEW_CHECKPOINT.md",
+      "sourceTemplate": "quarter_review_checkpoint.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": true,
+      "kind": "agent_instruction",
+      "path": "AGENTS.md",
+      "sourceTemplate": "agents.md.j2",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/AI_TEST_GENERATION_CONTRACT.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/test-inventory.json",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/manual/test-cases/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/manual/test-cases/FEATURE_TEST_CASE.template.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/verify_zkme_qa_contract.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/validate_ai_adapters.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/validate_testcase_packages.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/validate_test_design_quality.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/install_git_hooks.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/unit/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/unit/FEATURE_UNIT_TEST.template.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/integration/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/api/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/e2e/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/e2e/FEATURE_E2E_TEST.template.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/config/zkme-adapters.json",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/run_zkme_tests.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/export_playwright_spec.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/PORTABLE_TESTCASE_EXAMPLES.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/test-cases/SAMPLE_PORTABLE_TESTCASE.json",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/__init__.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/zeuz_bridge/__init__.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/zeuz_bridge/status.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/zeuz_bridge/variables.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/zeuz_bridge/report_writer.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/typescript/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/typescript/run-zkme-tests.ts",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/java/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/java/ZkmePortableTestcaseReader.java",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/csharp/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/adapters/csharp/ZkmePortableTestcaseReader.cs",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/local-runner/zkme-portable-testcase.schema.json",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/web/playwright/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/web/playwright/FEATURE_PLAYWRIGHT_TEST.template.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/testcases/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/testcases/zkme-test-package.schema.json",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/ui/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/ui/VISUAL_ACCESSIBILITY_CHECKS.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/ui/ui-exceptions.json",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/ui/verify_ui_consistency.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/desktop/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/db/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/performance/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/security/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/reports/zeuz-compatible/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/reports/zeuz-compatible/zeuz-report.schema.json",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/vendor/zeuz-python-node/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/vendor/zeuz-python-node/fetch_zeuz_node.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/zeuz/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/zeuz/SYNC_README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/zeuz/sync_zeuz.py",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/zeuz/zeuz-export-manifest.json",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/manual/checklists/governance-checklist.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "qa/automation/mobile/README.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".githooks/pre-commit",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".github/pull_request_template.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".github/workflows/zkme-qa.yml",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": "CLAUDE.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".cursor/rules/zkme.mdc",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".github/copilot-instructions.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".clinerules",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".roo/rules/zkme.md",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".windsurfrules",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "qa_scaffold",
+      "path": ".aider.conf.yml",
+      "sourceTemplate": "qa_scaffold",
+      "written": true
+    },
+    {
+      "installedToRoot": false,
+      "kind": "governance_pack",
+      "path": ".zkme/kme_output/ZKME_GOVERNANCE_PACK.md",
+      "sourceTemplate": "universal_ai_project_instructions.md.j2",
+      "written": true
+    }
+  ],
+  "governanceOutput": ".zkme/generated-governance",
+  "kmeOutput": ".zkme/kme_output",
+  "project": {
+    "frameworks": [],
+    "languages": [
+      "html",
+      "markdown"
+    ],
+    "name": "OC",
+    "packageManagers": [],
+    "projectTypes": [
+      "library"
+    ],
+    "root": "A:\\git\\OC"
+  },
+  "rootAgents": {
+    "existedBeforeGeneration": false,
+    "installedGeneratedRoot": true,
+    "path": "AGENTS.md",
+    "preserved": false
+  },
+  "schemaVersion": "zkme.governance-manifest.v1",
+  "surfaceSummary": {
+    "apiRoutes": 0,
+    "databaseTables": 0,
+    "mobileSurfaces": 0,
+    "queues": 0,
+    "uiSurfaces": 0,
+    "workers": 0
+  },
+  "warnings": [],
+  "zkmeVersion": "2.26.0"
+}

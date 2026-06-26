@@ -1,0 +1,25 @@
+{
+  "by_file_top": [],
+  "has_db_fk_graph": false,
+  "has_graphql_index": true,
+  "items": [],
+  "mapping": {
+    "features": {},
+    "notes": [
+      "Deterministic mapping generated without LLMs.",
+      "Feature membership comes from extracted Feature.symbols/interfaces/data_touches plus evidence paths.",
+      "GraphQL operations are linked by file intersection with graphql_index.json (best-effort).",
+      "Tests are linked by conservative path heuristics + nearby directory matching."
+    ],
+    "reverse": {
+      "db_target_to_features": {},
+      "file_to_features": {},
+      "interface_to_features": {},
+      "route_to_features": {},
+      "symbol_to_features": {},
+      "test_to_features": {}
+    }
+  },
+  "schema_version": "1.0",
+  "total": 0
+}

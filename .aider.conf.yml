@@ -1,0 +1,14 @@
+# ZKME AI Adapter Bridge
+read:
+  - AGENTS.md
+  - .zkme/generated-governance/AGENTS.generated.md
+  - .zkme/generated-governance/DEVELOPMENT_STANDARDS.md
+  - .zkme/generated-governance/UI_UX_STANDARDS.md
+  - .zkme/generated-governance/QA_AUTOMATION_STANDARDS.md
+  - qa/AI_TEST_GENERATION_CONTRACT.md
+  - qa/feature-architecture-map.json
+  - qa/test-oracles.json
+  - qa/test-data-matrix.json
+  - qa/traceability-matrix.json
+  - qa/test-design-quality.json
+  - qa/automation/README.md
