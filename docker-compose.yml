@@ -1,0 +1,10 @@
+services:
+  orange-circle:
+    build: .
+    image: orange-circle-platformer:local
+    ports:
+      - "8080:8080"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8080
+    restart: unless-stopped

@@ -1,0 +1,58 @@
+{
+  "name": "orange-circle-platformer",
+  "version": "0.1.0",
+  "description": "Orange Circle Platformer packaged for web and desktop.",
+  "private": true,
+  "main": "electron/main.cjs",
+  "scripts": {
+    "start": "npm run web",
+    "web": "node server.js",
+    "desktop": "electron .",
+    "electron": "electron .",
+    "check": "node --check server.js && node --check electron/main.cjs && node --check qa/automation/unit/orange-circle-server.test.js",
+    "test": "node --test qa/automation/unit/orange-circle-server.test.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [
+    "game",
+    "platformer",
+    "electron",
+    "web"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^41.7.1",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "com.orangecircle.platformer",
+    "productName": "Orange Circle",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "orange_circle_platformer.html",
+      "electron/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
+  }
+}
